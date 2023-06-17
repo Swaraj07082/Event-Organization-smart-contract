@@ -1,0 +1,90 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "name",
+						"type": "address"
+					}
+				],
+				"name": "ClicktoPay1ether",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "name",
+						"type": "address"
+					},
+					{
+						"internalType": "address payable",
+						"name": "adr",
+						"type": "address"
+					}
+				],
+				"name": "EthereumAddress",
+				"outputs": [],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "EthersPaid",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Multi send.sol": "MultiSend"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Multi send.sol": {
+			"keccak256": "0xf82fe9a0edcfb09bce1ac16471909cf44d93be625bdb19ddc7d8efb4191ac649",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://24465865a3cb5551450c95ce6c0270519fab2215d553582d4301fc112d1d3445",
+				"dweb:/ipfs/QmVstnV759zqXwawgsXepoK3W2Ve7C1yHwQCtxAaFCxrbz"
+			]
+		}
+	},
+	"version": 1
+}
