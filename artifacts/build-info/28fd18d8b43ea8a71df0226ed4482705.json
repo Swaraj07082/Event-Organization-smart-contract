@@ -1,0 +1,83 @@
+{
+	"id": "28fd18d8b43ea8a71df0226ed4482705",
+	"_format": "hh-sol-build-info-1",
+	"solcVersion": "0.8.18",
+	"solcLongVersion": "0.8.18+commit.87f61d96",
+	"input": {
+		"language": "Solidity",
+		"sources": {
+			"interacting with smart contract using web3js.sol": {
+				"content": "// write a smart contract\r\n// change environment to web3 provider\r\n// paste ganache link to web3 provider endpoint\r\n// now ganache is connected to remix IDE\r\n// now deploy the contract\r\n\r\n\r\n\r\n\r\n\r\n// turn on node js by typing in terminal\r\n// node\r\n// npm init -y\r\n// this will bring the json file\r\n// npm install -save web3\r\n// let Web3 = require(\"web3\");\r\n// let web3 = new Web3(new Web3.providers.HttpProvider(\"paste ganache server link here\")\\\r\n// now we have connected web3 to ganache\r\n\r\n// let contract = new web3.eth.Contract(ABI,\"address of smart contract\");\r\n\r\n// contract.methods.x().call().then(console.log);\r\n// x here is a public variable in smart contract so it has an inbuilt getter function\r\n// here we are calling the variable x to see its value\r\n\r\n\r\n// contract.methods.set(90).send({from:\"address from which u want to transact gas for this function\"});\r\n// setting value of x to 90\r\n// set here is the name of setter function\r\n\r\n// contract.methods.x().call().then(console.log);\r\n// again now as we have set the value of x to 90 , again we will call to see if x's value has changed or not\r\n\r\n\r\n"
+			}
+		},
+		"settings": {
+			"optimizer": {
+				"enabled": false,
+				"runs": 200
+			},
+			"outputSelection": {
+				"*": {
+					"": [
+						"ast"
+					],
+					"*": [
+						"abi",
+						"metadata",
+						"devdoc",
+						"userdoc",
+						"storageLayout",
+						"evm.legacyAssembly",
+						"evm.bytecode",
+						"evm.deployedBytecode",
+						"evm.methodIdentifiers",
+						"evm.gasEstimates",
+						"evm.assembly"
+					]
+				}
+			}
+		}
+	},
+	"output": {
+		"errors": [
+			{
+				"component": "general",
+				"errorCode": "1878",
+				"formattedMessage": "Warning: SPDX license identifier not provided in source file. Before publishing, consider adding a comment containing \"SPDX-License-Identifier: <SPDX-License>\" to each source file. Use \"SPDX-License-Identifier: UNLICENSED\" for non-open-source code. Please see https://spdx.org for more information.\n--> interacting with smart contract using web3js.sol\n\n",
+				"message": "SPDX license identifier not provided in source file. Before publishing, consider adding a comment containing \"SPDX-License-Identifier: <SPDX-License>\" to each source file. Use \"SPDX-License-Identifier: UNLICENSED\" for non-open-source code. Please see https://spdx.org for more information.",
+				"severity": "warning",
+				"sourceLocation": {
+					"end": -1,
+					"file": "interacting with smart contract using web3js.sol",
+					"start": -1
+				},
+				"type": "Warning"
+			},
+			{
+				"component": "general",
+				"errorCode": "3420",
+				"formattedMessage": "Warning: Source file does not specify required compiler version! Consider adding \"pragma solidity ^0.8.18;\"\n--> interacting with smart contract using web3js.sol\n\n",
+				"message": "Source file does not specify required compiler version! Consider adding \"pragma solidity ^0.8.18;\"",
+				"severity": "warning",
+				"sourceLocation": {
+					"end": -1,
+					"file": "interacting with smart contract using web3js.sol",
+					"start": -1
+				},
+				"type": "Warning"
+			}
+		],
+		"sources": {
+			"interacting with smart contract using web3js.sol": {
+				"ast": {
+					"absolutePath": "interacting with smart contract using web3js.sol",
+					"exportedSymbols": {},
+					"id": 1,
+					"nodeType": "SourceUnit",
+					"nodes": [],
+					"src": "1111:0:0"
+				},
+				"id": 0
+			}
+		}
+	}
+}

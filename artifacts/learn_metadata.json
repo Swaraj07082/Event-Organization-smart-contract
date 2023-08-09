@@ -1,0 +1,86 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getstatus",
+				"outputs": [
+					{
+						"internalType": "enum learn.Status",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "rej",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "reset",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "enum learn.Status",
+						"name": "_status",
+						"type": "uint8"
+					}
+				],
+				"name": "setstatus",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"new.sol": "learn"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"new.sol": {
+			"keccak256": "0xd15ce9d896e842add90aee026c22adc35290dce929c5fb9d1a7e04a484986c46",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://2e990c48d5bfa7d887e2c80f49ede4fd65acda73d672a330ffbba447becb9098",
+				"dweb:/ipfs/Qmboxa9VPaS68hCQnUpZjc99hjzJsNQiW9n9zQV5ZwuNao"
+			]
+		}
+	},
+	"version": 1
+}

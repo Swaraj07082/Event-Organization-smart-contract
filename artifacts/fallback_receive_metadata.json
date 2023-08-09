@@ -1,0 +1,54 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"stateMutability": "payable",
+				"type": "fallback"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"fallback receive.sol": "fallback_receive"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"fallback receive.sol": {
+			"keccak256": "0x470d6a2ab0244e6873d91d3582e615d7749aa8bcb4f19589a1bc9ea64da5819c",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://461f680c98951ca20e736168fdc65695a5cf93c6befc985c51e99f5b5bbbfa4a",
+				"dweb:/ipfs/QmYA62NpZibkPfzL6oB3rspgzMgjgcufd4QwM9j3FKhx71"
+			]
+		}
+	},
+	"version": 1
+}

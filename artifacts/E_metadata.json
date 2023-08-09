@@ -6,42 +6,47 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_age",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_add",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_salary",
+						"type": "uint256"
+					}
+				],
 				"stateMutability": "nonpayable",
 				"type": "constructor"
 			},
 			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "rollno",
-						"type": "uint256"
-					},
-					{
-						"internalType": "uint256",
-						"name": "regno",
-						"type": "uint256"
-					},
-					{
-						"internalType": "uint256",
-						"name": "classno",
-						"type": "uint256"
-					}
-				],
-				"name": "FillDetails",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [
+				"inputs": [],
+				"name": "add",
+				"outputs": [
 					{
 						"internalType": "string",
-						"name": "name",
+						"name": "",
 						"type": "string"
 					}
 				],
-				"name": "ViewStudentClassno",
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "age",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -53,14 +58,21 @@
 				"type": "function"
 			},
 			{
-				"inputs": [
+				"inputs": [],
+				"name": "name",
+				"outputs": [
 					{
 						"internalType": "string",
-						"name": "name",
+						"name": "",
 						"type": "string"
 					}
 				],
-				"name": "ViewStudentRegno",
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "salary",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -69,38 +81,6 @@
 					}
 				],
 				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "string",
-						"name": "name",
-						"type": "string"
-					}
-				],
-				"name": "ViewStudentRollno",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "string",
-						"name": "name",
-						"type": "string"
-					}
-				],
-				"name": "enroll",
-				"outputs": [],
-				"stateMutability": "payable",
 				"type": "function"
 			}
 		],
@@ -117,7 +97,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"interacting with ganache.sol": "Registry"
+			"passing parameter to parent constructor in MH.sol": "E"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -131,12 +111,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"interacting with ganache.sol": {
-			"keccak256": "0xc1f42aef41a043f4c13f90235df693feff168d20dabf3a2eab925bd52a540a4a",
+		"passing parameter to parent constructor in MH.sol": {
+			"keccak256": "0x48b7afa9e83df7b41cb319126d6aeabccecb54662c601a0d96dc5fee31f94679",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://d12c47fcdf71f44f1ed6b49a7e6e8b6eb74db00eee555177f12b1504024f63c8",
-				"dweb:/ipfs/QmUBzKU9Pxyh47C1Nj2myeMQfs61Sa2cMLKn2pZrbyrjpj"
+				"bzz-raw://a6df723aeab3a0c75706c7aed86adff5b3b8fdaf2d1242a7bb651a373e72ae29",
+				"dweb:/ipfs/Qmd5revCqvWqfoRKBQtcCfzpbEzPK65YrL2pveXFU86J7M"
 			]
 		}
 	},
